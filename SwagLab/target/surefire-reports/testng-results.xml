@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-21T05:08:13 EEST" name="Swag Labs Test Suite" finished-at="2026-10-21T05:08:44 EEST" duration-ms="30810">
+    <groups>
+    </groups>
+    <test started-at="2026-10-21T05:08:13 EEST" name="Chrome Tests" finished-at="2026-10-21T05:08:30 EEST" duration-ms="16997">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@38499e48]" started-at="2026-10-21T05:08:13 EEST" name="setup" finished-at="2026-10-21T05:08:16 EEST" duration-ms="2763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyInvalidLogin()[pri:0, instance:tests.LoginTest@38499e48]" started-at="2026-10-21T05:08:16 EEST" name="VerifyInvalidLogin" finished-at="2026-10-21T05:08:20 EEST" duration-ms="3691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@38499e48]" started-at="2026-10-21T05:08:20 EEST" name="teardown" finished-at="2026-10-21T05:08:21 EEST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@38499e48]" started-at="2026-10-21T05:08:21 EEST" name="setup" finished-at="2026-10-21T05:08:23 EEST" duration-ms="2055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySuccssefulLogin()[pri:0, instance:tests.LoginTest@38499e48]" started-at="2026-10-21T05:08:23 EEST" name="VerifySuccssefulLogin" finished-at="2026-10-21T05:08:24 EEST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccssefulLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@38499e48]" started-at="2026-10-21T05:08:24 EEST" name="teardown" finished-at="2026-10-21T05:08:24 EEST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@38499e48]" started-at="2026-10-21T05:08:24 EEST" name="setup" finished-at="2026-10-21T05:08:25 EEST" duration-ms="1384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithoutPassword()[pri:0, instance:tests.LoginTest@38499e48]" started-at="2026-10-21T05:08:25 EEST" name="verifyLoginWithoutPassword" finished-at="2026-10-21T05:08:26 EEST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@38499e48]" started-at="2026-10-21T05:08:26 EEST" name="teardown" finished-at="2026-10-21T05:08:26 EEST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.InventoryTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.InventoryTest@34cf5a97]" started-at="2026-10-21T05:08:26 EEST" name="setup" finished-at="2026-10-21T05:08:28 EEST" duration-ms="1783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInventoryPageElements()[pri:0, instance:tests.InventoryTest@34cf5a97]" started-at="2026-10-21T05:08:28 EEST" name="verifyInventoryPageElements" finished-at="2026-10-21T05:08:29 EEST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventoryPageElements -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.InventoryTest@34cf5a97]" started-at="2026-10-21T05:08:29 EEST" name="teardown" finished-at="2026-10-21T05:08:30 EEST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.InventoryTest -->
+    </test> <!-- Chrome Tests -->
+    <test started-at="2026-10-21T05:08:13 EEST" name="Edge Tests" finished-at="2026-10-21T05:08:33 EEST" duration-ms="19988">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@102d92c4]" started-at="2026-10-21T05:08:13 EEST" name="setup" finished-at="2026-10-21T05:08:16 EEST" duration-ms="2653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyInvalidLogin()[pri:0, instance:tests.LoginTest@102d92c4]" started-at="2026-10-21T05:08:16 EEST" name="VerifyInvalidLogin" finished-at="2026-10-21T05:08:20 EEST" duration-ms="3572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@102d92c4]" started-at="2026-10-21T05:08:20 EEST" name="teardown" finished-at="2026-10-21T05:08:21 EEST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@102d92c4]" started-at="2026-10-21T05:08:21 EEST" name="setup" finished-at="2026-10-21T05:08:24 EEST" duration-ms="2521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySuccssefulLogin()[pri:0, instance:tests.LoginTest@102d92c4]" started-at="2026-10-21T05:08:24 EEST" name="VerifySuccssefulLogin" finished-at="2026-10-21T05:08:24 EEST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccssefulLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@102d92c4]" started-at="2026-10-21T05:08:24 EEST" name="teardown" finished-at="2026-10-21T05:08:26 EEST" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@102d92c4]" started-at="2026-10-21T05:08:26 EEST" name="setup" finished-at="2026-10-21T05:08:29 EEST" duration-ms="2604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithoutPassword()[pri:0, instance:tests.LoginTest@102d92c4]" started-at="2026-10-21T05:08:29 EEST" name="verifyLoginWithoutPassword" finished-at="2026-10-21T05:08:30 EEST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@102d92c4]" started-at="2026-10-21T05:08:30 EEST" name="teardown" finished-at="2026-10-21T05:08:30 EEST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.InventoryTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.InventoryTest@2b97cc1f]" started-at="2026-10-21T05:08:30 EEST" name="setup" finished-at="2026-10-21T05:08:32 EEST" duration-ms="1872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInventoryPageElements()[pri:0, instance:tests.InventoryTest@2b97cc1f]" started-at="2026-10-21T05:08:32 EEST" name="verifyInventoryPageElements" finished-at="2026-10-21T05:08:32 EEST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventoryPageElements -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.InventoryTest@2b97cc1f]" started-at="2026-10-21T05:08:32 EEST" name="teardown" finished-at="2026-10-21T05:08:33 EEST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.InventoryTest -->
+    </test> <!-- Edge Tests -->
+    <test started-at="2026-10-21T05:08:13 EEST" name="Firefox Tests" finished-at="2026-10-21T05:08:44 EEST" duration-ms="30810">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@18324f97]" started-at="2026-10-21T05:08:13 EEST" name="setup" finished-at="2026-10-21T05:08:22 EEST" duration-ms="8497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyInvalidLogin()[pri:0, instance:tests.LoginTest@18324f97]" started-at="2026-10-21T05:08:22 EEST" name="VerifyInvalidLogin" finished-at="2026-10-21T05:08:23 EEST" duration-ms="1509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@18324f97]" started-at="2026-10-21T05:08:23 EEST" name="teardown" finished-at="2026-10-21T05:08:25 EEST" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@18324f97]" started-at="2026-10-21T05:08:25 EEST" name="setup" finished-at="2026-10-21T05:08:33 EEST" duration-ms="8682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySuccssefulLogin()[pri:0, instance:tests.LoginTest@18324f97]" started-at="2026-10-21T05:08:33 EEST" name="VerifySuccssefulLogin" finished-at="2026-10-21T05:08:34 EEST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccssefulLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@18324f97]" started-at="2026-10-21T05:08:34 EEST" name="teardown" finished-at="2026-10-21T05:08:34 EEST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@18324f97]" started-at="2026-10-21T05:08:34 EEST" name="setup" finished-at="2026-10-21T05:08:38 EEST" duration-ms="3848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithoutPassword()[pri:0, instance:tests.LoginTest@18324f97]" started-at="2026-10-21T05:08:38 EEST" name="verifyLoginWithoutPassword" finished-at="2026-10-21T05:08:39 EEST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@18324f97]" started-at="2026-10-21T05:08:39 EEST" name="teardown" finished-at="2026-10-21T05:08:39 EEST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.InventoryTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.InventoryTest@64f555e7]" started-at="2026-10-21T05:08:39 EEST" name="setup" finished-at="2026-10-21T05:08:43 EEST" duration-ms="3422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInventoryPageElements()[pri:0, instance:tests.InventoryTest@64f555e7]" started-at="2026-10-21T05:08:43 EEST" name="verifyInventoryPageElements" finished-at="2026-10-21T05:08:43 EEST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventoryPageElements -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.InventoryTest@64f555e7]" started-at="2026-10-21T05:08:43 EEST" name="teardown" finished-at="2026-10-21T05:08:44 EEST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.InventoryTest -->
+    </test> <!-- Firefox Tests -->
+  </suite> <!-- Swag Labs Test Suite -->
+</testng-results>
